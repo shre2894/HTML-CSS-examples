@@ -1,0 +1,1 @@
+expanding cards with simple css animation
