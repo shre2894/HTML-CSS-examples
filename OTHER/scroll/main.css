@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.card-container {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.card {
+	font-size: 2rem;
+	border: 1px solid;
+	padding: 1rem;
+	border-radius: 8px;
+	opacity: 0;
+	transform: translateX(100px) rotateX(-360deg);
+	transition: 0.5s;
+}
+
+.show {
+	transform: translateX(0) rotateX(0);
+	opacity: 1;
+}
